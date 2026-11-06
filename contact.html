@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Club AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Club AI</h1>
+
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="ateliers.html">Ateliers</a>
+            <a href="programme.html">Programme</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Inscription aux ateliers</h2>
+
+        <form>
+            <label>Nom complet :</label>
+
+            <input type="text" name="nom" required>
+
+            <label>Email :</label>
+
+            <input type="email" name="email" required>
+
+            <label>Téléphone :</label>
+
+            <input type="tel" name="telephone">
+
+            <label>Date souhaitée :</label>
+
+            <input type="date" name="date">
+
+            <label>Filière :</label>
+
+            <select name="filiere">
+                <option>Informatique</option>
+
+                <option>Gestion</option>
+
+                <option>Autre</option>
+            </select>
+
+            <label>Atelier souhaité :</label>
+            <select name="atelier">
+                <option>Assistant pédagogique</option>
+                <option>Qualité du code</option>
+                <option>Prototypage d’application</option>
+            </select>
+
+            <p>Niveau :</p>
+            <input type="radio" name="niveau" value="debutant"> Débutant
+
+            <input type="radio" name="niveau" value="intermediaire"> Intermédiaire
+
+            <p>Centres d'intérêt :</p>
+            <input type="checkbox" name="interet" value="IA"> IA
+
+            <input type="checkbox" name="interet" value="Web"> Web
+
+            <input type="checkbox" name="interet" value="Donnees"> Données
+
+            <label>Message :</label>
+
+            <textarea name="message"></textarea>
+
+            <button type="submit">Envoyer</button>
+
+            <button type="reset">Effacer</button>
+        </form>
+    </main>
+
+
+    
+    <footer>
+        Réalisé par CHAKOUAT Marouane - Filière IL
+    </footer>
+
+</body>
+</html>
